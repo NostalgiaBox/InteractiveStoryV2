@@ -13,6 +13,8 @@
 		7299F31820F1BBA300899DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7299F31720F1BBA300899DC4 /* Assets.xcassets */; };
 		7299F31B20F1BBA300899DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7299F31920F1BBA300899DC4 /* LaunchScreen.storyboard */; };
 		7299F32320F1C49F00899DC4 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299F32220F1C49F00899DC4 /* Story.swift */; };
+		7299F32520F1C6C200899DC4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299F32420F1C6C200899DC4 /* Page.swift */; };
+		7299F32720F460CD00899DC4 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299F32620F460CD00899DC4 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7299F31A20F1BBA300899DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7299F31C20F1BBA300899DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7299F32220F1C49F00899DC4 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		7299F32420F1C6C200899DC4 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7299F32620F460CD00899DC4 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7299F31920F1BBA300899DC4 /* LaunchScreen.storyboard */,
 				7299F31C20F1BBA300899DC4 /* Info.plist */,
 				7299F32220F1C49F00899DC4 /* Story.swift */,
+				7299F32420F1C6C200899DC4 /* Page.swift */,
+				7299F32620F460CD00899DC4 /* PageController.swift */,
 			);
 			path = InteractiveStoryV2;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				7299F31320F1BBA100899DC4 /* ViewController.swift in Sources */,
 				7299F31120F1BBA100899DC4 /* AppDelegate.swift in Sources */,
+				7299F32520F1C6C200899DC4 /* Page.swift in Sources */,
 				7299F32320F1C49F00899DC4 /* Story.swift in Sources */,
+				7299F32720F460CD00899DC4 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
